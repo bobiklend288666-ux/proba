@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="proba.vcxproj" Id="ca18bd2e-1e13-45da-b965-f44ddf9b056f" />
+</Solution>
