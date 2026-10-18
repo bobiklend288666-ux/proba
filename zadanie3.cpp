@@ -4,12 +4,10 @@
 using namespace std;
 
 int main() {
-    SetConsoleCP(65001);
-    SetConsoleOutputCP(65001);
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
 
     double profit[12];
-
-    // вводим прибыль за 12 месяцев
     for (int i = 0; i < 12; i++) {
         cout << "Прибыль за месяц " << i + 1 << ": ";
         cin >> profit[i];
@@ -18,8 +16,6 @@ int main() {
     int start, end;
     cout << "Диапазон месяцев (например, 3 6): ";
     cin >> start >> end;
-
-    // ищем месяцы с максимальной и минимальной прибылью в диапазоне
     int maxMonth = start;
     int minMonth = start;
     for (int m = start; m <= end; m++) {
